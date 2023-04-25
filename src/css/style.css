@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Open+Sans:wght@400;700&family=Sora:wght@400;600&display=swap');
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Sora', sans-serif; */
+
+html{
+    font-size: 62.5%;
+    width: 100%;
+    text-size-adjust: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(5, 8, 43);
+    height: auto;
+    min-width: 320px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 10px;
+    /* display: flex;
+    justify-content: center; */
+} 
+
+.conteudo-pricipal{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* height: 200px; */
+    position: relative;
+    border-bottom: 1px solid #00def3;
+}
+
+.conteudo-pricipal{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: inherit;
+    text-shadow: black 0.2em 0.2em 0.3em;    
+}
+
+.conteudo-pricipal{
+    background-image: url(../images/first.jpg);
+}
+
+.emphasis{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 50px 0px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    font-weight: 700;
+    font-size: 38px;
+    /* line-height: 53px; */
+}
+
+.call, .preposition, .footer, .name{
+    color: #FFFFFF;
+}
+
+.preposition{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+    padding-left: 5px;
+}
+
+.icon{
+    font-size: 38px;
+    color: rgb(0,222,243)
+    
+}
+
+.angles-right1{
+    padding-left: 5px;
+}
+
+.second-line{
+    display: flex;
+    justify-content: center;
+}
+
+.angles-right2{
+   
+}
+
+.slogan{
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 26px;
+    color:rgb(109,229,255);
+}
+
+.video .tutorial-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 350px 0px 20px 0px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.title, .name{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 37px;
+}
+
+.title{
+    color: #00def3;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+
+.video .tutorial-video .description{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #00def3;
+    padding: 10rem 0;
+    align-items: flex-start;
+    /* height: 200px; */
+    position: relative;
+}
+
+.container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.images-footer{
+    background-image: url(../images/6852137_28532.jpg);
+}
+
+.social-icons{
+    display: block;  
+    font-size: 3rem;
+    transition: 0.3s;
+     
+}
+
+.footer .social-icons a{ padding: 20rem 20rem;
+
+}
+
+.footer .social-icons a:hover{
+    color: rgb(5, 111, 177);
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 10rem;
+    font-size: 2rem;
+}
+
+
+
